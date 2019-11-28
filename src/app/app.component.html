@@ -1,0 +1,9 @@
+<mat-toolbar fxLayout="row" fxLayoutAlign="space-between center" color="primary">
+    <span>
+        {{title}}
+    </span>
+    <button mat-flat-button color="primary" style="font-size: 20px;" (click)="openDialog()"
+        *ngIf="auth.auth.currentUser !== null">{{auth.auth.currentUser.displayName}}
+    </button>
+</mat-toolbar>
+<router-outlet></router-outlet>
