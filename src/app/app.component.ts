@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 
 @Component({

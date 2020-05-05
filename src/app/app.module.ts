@@ -8,7 +8,9 @@ import { NgxAuthFirebaseUIModule } from 'ngx-auth-firebaseui';
 import { environment } from './../environments/environment';
 import { LoginComponent } from './login/login.component';
 import { HomeModule } from './home/home.module';
-import { MatToolbarModule, MatButtonModule, MatDialogModule } from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 export function name() {
