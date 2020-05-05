@@ -25,7 +25,7 @@
     "@angular/router": "~8.2.14",
     "firebase": "^6.3.40",
     "grpc": "^1.24.2",
-    "ham/karting-laptimes-webmerjs": "^2.0.8",
+    "hammerjs": "^2.0.8",
     "material-design-icons": "^3.0.1",
     "ngx-auth-firebaseui": "^3.4.2",
     "rxjs": "~6.4.0",
